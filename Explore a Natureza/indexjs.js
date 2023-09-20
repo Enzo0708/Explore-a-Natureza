@@ -25,13 +25,13 @@ const faq2 = document.querySelectorAll('.js-faq dd')
 console.log(faq)
 console.log(faq2)
 
-function ativarConteudo(indice){
+function ativarConteudo2(indice){
     faq2[indice].classList.toggle('active')
     faq[indice].classList.toggle('active')
 }
 
 faq.forEach((item, index) =>{
     item.addEventListener('click', () => {
-        ativarConteudo(index)
+        ativarConteudo2(index)
     })
 })
