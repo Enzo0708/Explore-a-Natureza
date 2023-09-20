@@ -19,3 +19,16 @@
     line-height: 1.8rem;
     margin-bottom: 1rem;
 }
+
+.js-faq dd{
+    display: none;
+}
+
+.js-faq dd.active{
+    display: block;
+    animation: show 1s forwards;
+}
+
+.js-faq dt.active::after{
+    content: '\25B2';
+}
