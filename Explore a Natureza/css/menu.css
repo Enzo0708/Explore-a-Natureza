@@ -88,7 +88,7 @@
     .js-list.active{
         display: block;
         position: absolute;
-        top: 69px;
+        top: 100px;
         left: 0;
         width: 100%;
         background-color: var(--background-green);
