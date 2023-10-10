@@ -1,4 +1,3 @@
-const modal = document.querySelector('.js-modal')
 
 
 
